@@ -1,4 +1,5 @@
 export {digiArray2}
+
 const digiArray2 = [{
         "name": "Koromon",
         "img": "https://digimon.shadowsmith.com/img/koromon.jpg",
@@ -1044,3 +1045,5 @@ const digiArray2 = [{
         "img": "https://digimon.shadowsmith.com/img/omnimon.jpg",
         "level": "Mega"
     }]
+
+    console.log(digiArray2.length)
