@@ -1,0 +1,4 @@
+<button (click)="displayDigimon()" >push!</button>
+<div *ngFor="let digimon of digimonList">
+    <app-digimon-details [digimon]="digimon" ></app-digimon-details>
+</div>

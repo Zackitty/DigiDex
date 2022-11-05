@@ -1,13 +1,18 @@
 import { TestBed } from '@angular/core/testing';
 
 import { DigimonService } from './digimon.service';
-import { Digimon } from './digimon';
+import { Digimon } from '../models/digimon/digimon';
+import { HttpClientModule } from '@angular/common/http';
 
 describe('DigimonService', () => {
   let service: DigimonService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({
+      imports: [
+        HttpClientModule
+      ]
+    });
     service = TestBed.inject(DigimonService);
   });
 
@@ -48,7 +53,6 @@ describe('DigimonService', () => {
       "Lv50Spd": 95,
       "img": "https://64.media.tumblr.com/afb67fb5cfd8d6b37cb1716cc62fb435/08882f5e70308cb7-c3/s540x810/f75a120ab49b7f8954bae3c4da5db8daa616a642.jpg"
     }]
-    let digimonArrayError: Digimon[] = digimonError;
 
 
   });

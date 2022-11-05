@@ -4,15 +4,23 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DigimonScreenComponent } from './components/digimon-screen/digimon-screen.component';
+import { DigimonDetailsComponent } from './components/digimon-details/digimon-details.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DigimonScreenComponent,
+    DigimonDetailsComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
+  ],
+  exports: [
   ],
   providers: [],
   bootstrap: [AppComponent]

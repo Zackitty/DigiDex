@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
-import { DigimonService } from './digimon.service';
-import { Digimon } from './digimon';
-
+import { DigimonService } from './services/digimon.service';
+import { DigimonScreenComponent } from './components/digimon-screen/digimon-screen.component';
 
 @Component({
   selector: 'app-root',
@@ -11,17 +10,11 @@ import { Digimon } from './digimon';
 export class AppComponent {
   title = 'DigiDex';
 
+
   constructor(
     private digimonService: DigimonService
   ){
 
-  }
-
-  displayDigimon(){
-    this.digimonService.getDigimon()
-    .subscribe((resp: Digimon[])=> {
-      console.log(resp)
-    })
   }
 
 }
