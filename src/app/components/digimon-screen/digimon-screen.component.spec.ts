@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DigimonScreenComponent } from './digimon-screen.component';
+import { DigimonScreenComponent } from '../../components/digimon-screen/digimon-screen.component';
 import { DigimonService } from '../../services/digimon.service';
 import { of } from 'rxjs';
 import { Digimon } from '../../models/digimon/digimon'
