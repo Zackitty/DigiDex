@@ -1,19 +1,19 @@
-import { Component } from '@angular/core';
-import { DigimonService } from './services/digimon.service';
-import { DigimonScreenComponent } from './components/digimon-screen/digimon-screen.component';
+import { Component, OnInit } from '@angular/core';
+import { RoutesConfig } from '../configs/routes.config';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'DigiDex';
 
+  ngOnInit(): void {
+    console.log(RoutesConfig)
+  }
 
-  constructor(
-    private digimonService: DigimonService
-  ){
+  constructor(){
 
   }
 
