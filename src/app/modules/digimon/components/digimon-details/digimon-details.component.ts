@@ -13,25 +13,20 @@ import { Observable } from 'rxjs';
 })
 export class DigimonDetailsComponent implements OnInit {
   error: any;
-  @Input() digimon?: Digimon;
-  @Input() digimonList!: Digimon[];
-  @Output() digimonListChange = new EventEmitter<Digimon[]>()
+  @Input() 
+  digimon?: Digimon;
+  @Output()
+  public assignDigimon = new EventEmitter<number>();
 
   constructor(private digimonService: DigimonService) { }
 
   ngOnInit(): void {
 
   };
-
-  assignDigimon(number: number): void {
-    this.digimonService.getADigimon(number)
-    .subscribe({
-      next: (digimon: Digimon) => this.digimonList = [digimon],
-      error: error => this.error = error,
-      complete: () => this.digimonListChange.emit(this.digimonList)
-    })
+  
+  callAssignDigimon(number:number){
+    this.assignDigimon.emit(number)
   }
-
 }
 
 
@@ -79,3 +74,10 @@ export class DigimonDetailsComponent implements OnInit {
 // function under it gets called first before we've changed anything. That's why 
 // it waits til the second time to be called correctly because by then the state has been updated by the 
 // asynchronous call.
+
+// look up why i need public and private later and when. And in what order I should put properties
+// also look that  subsribing from outputs maybe that's the secret to that one implementation i wanna try just for funsies
+
+// originally i just had something that filtered the numbers so i should talk about why
+// changing it to use an observble and finding the number from the service based on an api
+// is more performant especially since that gives us quantifiable data to reference

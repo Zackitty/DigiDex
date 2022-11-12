@@ -1,4 +1,4 @@
-<div (click)="assignDigimon(digimon.number)" *ngIf="digimon">
+<div (click)="callAssignDigimon(digimon.number)" *ngIf="digimon">
 
     <h2>{{digimon.name | uppercase}} Details</h2>
     <div><span>id: </span>{{digimon.number}}</div>
@@ -8,4 +8,6 @@
     <img src="{{digimon.img}}" />
 
   </div>
+
+  
 

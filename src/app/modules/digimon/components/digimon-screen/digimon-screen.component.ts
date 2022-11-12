@@ -31,6 +31,14 @@ export class DigimonScreenComponent implements OnInit {
         error: error => this.error = error,
       });
   }
+
+  assignDigimon(number: number): void {
+    this.digimonService.getADigimon(number)
+    .subscribe({
+      next: (digimon: Digimon) => this.digimonList = [digimon],
+      error: error => this.error = error,
+    })
+  }
 }
 
 //  This is the actual list of all the digimon that can be selected
