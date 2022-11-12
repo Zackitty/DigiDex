@@ -12,6 +12,7 @@ import { Observable } from 'rxjs';
   styleUrls: ['./digimon-details.component.css']
 })
 export class DigimonDetailsComponent implements OnInit {
+  error: any;
   @Input() digimon?: Digimon;
   @Input() digimonList!: Digimon[];
   @Output() digimonListChange = new EventEmitter<Digimon[]>()
@@ -22,11 +23,14 @@ export class DigimonDetailsComponent implements OnInit {
 
   };
 
-
   assignDigimon(number: number): void {
-    this.digimonListChange.emit(this.digimonList.filter(digimon => digimon.number === number)
-    )
-  };
+    this.digimonService.getADigimon(number)
+    .subscribe({
+      next: (digimon: Digimon) => this.digimonList = [digimon],
+      error: error => this.error = error,
+      complete: () => this.digimonListChange.emit(this.digimonList)
+    })
+  }
 
 }
 
@@ -58,3 +62,20 @@ export class DigimonDetailsComponent implements OnInit {
 // that decides what kind of call to the database we're making?
 // or perhaps look into graphql to see if it just handles what i'm wanting
 // to do anyway?
+
+// had another problem now where it only changes state on a double click
+// so this is a great chance for me to figure out more about state
+// management because it looks to be because I'm changing two states
+// at once so it only fires the second after
+
+// ok so like you can't do async await on subscribe because it's chained off the
+// observable and not necessarily the method itself if I udnerstand right. I'll
+// definitely look into all the parts and pieces later. Anyway so there's no
+// no way to make it synchornous on its own or at least the call is. Anyway
+// later we for sure can but i don't have time i need to study for the interview
+// but after that i'll look into it in more depth just to make sure i completely
+// understand why awaiting on the method doesn't work but anyway the problem was
+// simple. Basically we're making an asynchronous call and so the synchrnous emit 
+// function under it gets called first before we've changed anything. That's why 
+// it waits til the second time to be called correctly because by then the state has been updated by the 
+// asynchronous call.

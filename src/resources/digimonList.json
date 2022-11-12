@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "number": 1,
         "name": "Kuramon",
         "attribute": "Neutral",
@@ -16,6 +17,7 @@
         "lv50Spd": 95
     },
     {
+        "id": 2,
         "number": 2,
         "name": "Pabumon",
         "attribute": "Neutral",
@@ -32,6 +34,7 @@
         "lv50Spd": 68
     },
     {
+        "id": 3,
         "number": 3,
         "name": "Punimon",
         "attribute": "Neutral",
@@ -48,6 +51,7 @@
         "lv50Spd": 75
     },
     {
+        "id": 4,
         "number": 4,
         "name": "Botamon",
         "attribute": "Neutral",
@@ -64,6 +68,7 @@
         "lv50Spd": 61
     },
     {
+        "id": 5,
         "number": 5,
         "name": "Poyomon",
         "attribute": "Neutral",
@@ -80,6 +85,7 @@
         "lv50Spd": 86
     },
     {
+        "id": 6,
         "number": 6,
         "name": "Koromon",
         "attribute": "Fire",
@@ -96,6 +102,7 @@
         "lv50Spd": 76
     },
     {
+        "id": 7,
         "number": 7,
         "name": "Tanemon",
         "attribute": "Plant",
@@ -112,6 +119,7 @@
         "lv50Spd": 69
     },
     {
+        "id": 8,
         "number": 8,
         "name": "Tsunomon",
         "attribute": "Earth",
@@ -128,6 +136,7 @@
         "lv50Spd": 76
     },
     {
+        "id": 9,
         "number": 9,
         "name": "Tsumemon",
         "attribute": "Dark",
@@ -144,6 +153,7 @@
         "lv50Spd": 93
     },
     {
+        "id": 10,
         "number": 10,
         "name": "Tokomon",
         "attribute": "Neutral",
@@ -160,6 +170,7 @@
         "lv50Spd": 103
     },
     {
+        "id": 11,
         "number": 11,
         "name": "Nyaromon",
         "attribute": "Light",
@@ -176,6 +187,7 @@
         "lv50Spd": 94
     },
     {
+        "id": 12,
         "number": 12,
         "name": "Pagumon",
         "attribute": "Dark",
@@ -192,6 +204,7 @@
         "lv50Spd": 93
     },
     {
+        "id": 13,
         "number": 13,
         "name": "Yokomon",
         "attribute": "Plant",
@@ -208,6 +221,7 @@
         "lv50Spd": 69
     },
     {
+        "id": 14,
         "number": 14,
         "name": "Bukamon",
         "attribute": "Water",
@@ -224,6 +238,7 @@
         "lv50Spd": 69
     },
     {
+        "id": 15,
         "number": 15,
         "name": "Motimon",
         "attribute": "Neutral",
@@ -240,6 +255,7 @@
         "lv50Spd": 69
     },
     {
+        "id": 16,
         "number": 16,
         "name": "Wanyamon",
         "attribute": "Wind",
@@ -256,6 +272,7 @@
         "lv50Spd": 82
     },
     {
+        "id": 17,
         "number": 17,
         "name": "Agumon",
         "attribute": "Fire",
@@ -272,6 +289,7 @@
         "lv50Spd": 86
     },
     {
+        "id": 18,
         "number": 18,
         "name": "Agumon (Blk)",
         "attribute": "Fire",
@@ -288,6 +306,7 @@
         "lv50Spd": 85
     },
     {
+        "id": 19,
         "number": 19,
         "name": "Armadillomon",
         "attribute": "Earth",
@@ -304,6 +323,7 @@
         "lv50Spd": 72
     },
     {
+        "id": 20,
         "number": 20,
         "name": "Impmon",
         "attribute": "Dark",
@@ -320,6 +340,7 @@
         "lv50Spd": 102
     },
     {
+        "id": 21,
         "number": 21,
         "name": "Elecmon",
         "attribute": "Electric",
@@ -336,6 +357,7 @@
         "lv50Spd": 90
     },
     {
+        "id": 22,
         "number": 22,
         "name": "Otamamon",
         "attribute": "Water",
@@ -352,6 +374,7 @@
         "lv50Spd": 78
     },
     {
+        "id": 23,
         "number": 23,
         "name": "Gaomon",
         "attribute": "Neutral",
@@ -368,6 +391,7 @@
         "lv50Spd": 101
     },
     {
+        "id": 24,
         "number": 24,
         "name": "Gazimon",
         "attribute": "Dark",
@@ -384,6 +408,7 @@
         "lv50Spd": 102
     },
     {
+        "id": 25,
         "number": 25,
         "name": "Gabumon",
         "attribute": "Fire",
@@ -400,6 +425,7 @@
         "lv50Spd": 91
     },
     {
+        "id": 26,
         "number": 26,
         "name": "Gabumon (Blk)",
         "attribute": "Fire",
@@ -416,6 +442,7 @@
         "lv50Spd": 91
     },
     {
+        "id": 27,
         "number": 27,
         "name": "Guilmon",
         "attribute": "Fire",
@@ -432,6 +459,7 @@
         "lv50Spd": 101
     },
     {
+        "id": 28,
         "number": 28,
         "name": "Kudamon",
         "attribute": "Light",
@@ -448,6 +476,7 @@
         "lv50Spd": 105
     },
     {
+        "id": 29,
         "number": 29,
         "name": "Keramon",
         "attribute": "Dark",
@@ -464,6 +493,7 @@
         "lv50Spd": 101
     },
     {
+        "id": 30,
         "number": 30,
         "name": "Gotsumon",
         "attribute": "Earth",
@@ -480,6 +510,7 @@
         "lv50Spd": 72
     },
     {
+        "id": 31,
         "number": 31,
         "name": "Goblimon",
         "attribute": "Earth",
@@ -496,6 +527,7 @@
         "lv50Spd": 84
     },
     {
+        "id": 32,
         "number": 32,
         "name": "Gomamon",
         "attribute": "Water",
@@ -512,6 +544,7 @@
         "lv50Spd": 79
     },
     {
+        "id": 33,
         "number": 33,
         "name": "Syakomon",
         "attribute": "Water",
@@ -528,6 +561,7 @@
         "lv50Spd": 78
     },
     {
+        "id": 34,
         "number": 34,
         "name": "Solarmon",
         "attribute": "Light",
@@ -544,6 +578,7 @@
         "lv50Spd": 77
     },
     {
+        "id": 35,
         "number": 35,
         "name": "Terriermon",
         "attribute": "Wind",
@@ -560,6 +595,7 @@
         "lv50Spd": 112
     },
     {
+        "id": 36,
         "number": 36,
         "name": "Tentomon",
         "attribute": "Plant",
@@ -576,6 +612,7 @@
         "lv50Spd": 73
     },
     {
+        "id": 37,
         "number": 37,
         "name": "ToyAgumon",
         "attribute": "Neutral",
@@ -592,6 +629,7 @@
         "lv50Spd": 71
     },
     {
+        "id": 38,
         "number": 38,
         "name": "Dorumon",
         "attribute": "Neutral",
@@ -608,6 +646,7 @@
         "lv50Spd": 101
     },
     {
+        "id": 39,
         "number": 39,
         "name": "Hagurumon",
         "attribute": "Electric",
@@ -624,6 +663,7 @@
         "lv50Spd": 71
     },
     {
+        "id": 40,
         "number": 40,
         "name": "Patamon",
         "attribute": "Wind",
@@ -640,6 +680,7 @@
         "lv50Spd": 90
     },
     {
+        "id": 41,
         "number": 41,
         "name": "Hackmon",
         "attribute": "Fire",
@@ -656,6 +697,7 @@
         "lv50Spd": 85
     },
     {
+        "id": 42,
         "number": 42,
         "name": "Palmon",
         "attribute": "Plant",
@@ -672,6 +714,7 @@
         "lv50Spd": 79
     },
     {
+        "id": 43,
         "number": 43,
         "name": "DemiDevimon",
         "attribute": "Dark",
@@ -688,6 +731,7 @@
         "lv50Spd": 111
     },
     {
+        "id": 44,
         "number": 44,
         "name": "Biyomon",
         "attribute": "Wind",
@@ -704,6 +748,7 @@
         "lv50Spd": 91
     },
     {
+        "id": 45,
         "number": 45,
         "name": "Falcomon",
         "attribute": "Wind",
@@ -720,6 +765,7 @@
         "lv50Spd": 113
     },
     {
+        "id": 46,
         "number": 46,
         "name": "Veemon",
         "attribute": "Neutral",
@@ -736,6 +782,7 @@
         "lv50Spd": 101
     },
     {
+        "id": 47,
         "number": 47,
         "name": "Salamon",
         "attribute": "Light",
@@ -752,6 +799,7 @@
         "lv50Spd": 97
     },
     {
+        "id": 48,
         "number": 48,
         "name": "Betamon",
         "attribute": "Water",
@@ -768,6 +816,7 @@
         "lv50Spd": 78
     },
     {
+        "id": 49,
         "number": 49,
         "name": "Hawkmon",
         "attribute": "Wind",
@@ -784,6 +833,7 @@
         "lv50Spd": 114
     },
     {
+        "id": 50,
         "number": 50,
         "name": "Lalamon",
         "attribute": "Plant",
@@ -800,6 +850,7 @@
         "lv50Spd": 79
     },
     {
+        "id": 51,
         "number": 51,
         "name": "Lucemon",
         "attribute": "Light",
@@ -816,6 +867,7 @@
         "lv50Spd": 119
     },
     {
+        "id": 52,
         "number": 52,
         "name": "Renamon",
         "attribute": "Plant",
@@ -832,6 +884,7 @@
         "lv50Spd": 93
     },
     {
+        "id": 53,
         "number": 53,
         "name": "Lopmon",
         "attribute": "Earth",
@@ -848,6 +901,7 @@
         "lv50Spd": 85
     },
     {
+        "id": 54,
         "number": 54,
         "name": "Wormmon",
         "attribute": "Plant",
@@ -864,6 +918,7 @@
         "lv50Spd": 71
     },
     {
+        "id": 55,
         "number": 55,
         "name": "IceDevimon",
         "attribute": "Water",
@@ -880,6 +935,7 @@
         "lv50Spd": 92
     },
     {
+        "id": 56,
         "number": 56,
         "name": "Aquilamon",
         "attribute": "Wind",
@@ -896,6 +952,7 @@
         "lv50Spd": 143
     },
     {
+        "id": 57,
         "number": 57,
         "name": "Ankylomon",
         "attribute": "Earth",
@@ -912,6 +969,7 @@
         "lv50Spd": 79
     },
     {
+        "id": 58,
         "number": 58,
         "name": "Ikkakumon",
         "attribute": "Water",
@@ -928,6 +986,7 @@
         "lv50Spd": 90
     },
     {
+        "id": 59,
         "number": 59,
         "name": "Wizardmon",
         "attribute": "Dark",
@@ -944,6 +1003,7 @@
         "lv50Spd": 118
     },
     {
+        "id": 60,
         "number": 60,
         "name": "Woodmon",
         "attribute": "Plant",
@@ -960,6 +1020,7 @@
         "lv50Spd": 88
     },
     {
+        "id": 61,
         "number": 61,
         "name": "ExVeemon",
         "attribute": "Neutral",
@@ -976,6 +1037,7 @@
         "lv50Spd": 118
     },
     {
+        "id": 62,
         "number": 62,
         "name": "Angemon",
         "attribute": "Light",
@@ -992,6 +1054,7 @@
         "lv50Spd": 99
     },
     {
+        "id": 63,
         "number": 63,
         "name": "Ogremon",
         "attribute": "Earth",
@@ -1008,6 +1071,7 @@
         "lv50Spd": 97
     },
     {
+        "id": 64,
         "number": 64,
         "name": "Guardromon",
         "attribute": "Electric",
@@ -1024,6 +1088,7 @@
         "lv50Spd": 79
     },
     {
+        "id": 65,
         "number": 65,
         "name": "GaoGamon",
         "attribute": "Wind",
@@ -1040,6 +1105,7 @@
         "lv50Spd": 138
     },
     {
+        "id": 66,
         "number": 66,
         "name": "Kabuterimon",
         "attribute": "Plant",
@@ -1056,6 +1122,7 @@
         "lv50Spd": 81
     },
     {
+        "id": 67,
         "number": 67,
         "name": "ShellNumemon",
         "attribute": "Water",
@@ -1072,6 +1139,7 @@
         "lv50Spd": 79
     },
     {
+        "id": 68,
         "number": 68,
         "name": "Gargomon",
         "attribute": "Electric",
@@ -1088,6 +1156,7 @@
         "lv50Spd": 108
     },
     {
+        "id": 69,
         "number": 69,
         "name": "Garurumon",
         "attribute": "Fire",
@@ -1104,6 +1173,7 @@
         "lv50Spd": 138
     },
     {
+        "id": 70,
         "number": 70,
         "name": "Garurumon (Blk)",
         "attribute": "Fire",
@@ -1120,6 +1190,7 @@
         "lv50Spd": 133
     },
     {
+        "id": 71,
         "number": 71,
         "name": "Kyubimon",
         "attribute": "Fire",
@@ -1136,6 +1207,7 @@
         "lv50Spd": 128
     },
     {
+        "id": 72,
         "number": 72,
         "name": "Growlmon",
         "attribute": "Fire",
@@ -1152,6 +1224,7 @@
         "lv50Spd": 109
     },
     {
+        "id": 73,
         "number": 73,
         "name": "Kurisarimon",
         "attribute": "Dark",
@@ -1168,6 +1241,7 @@
         "lv50Spd": 113
     },
     {
+        "id": 74,
         "number": 74,
         "name": "Greymon",
         "attribute": "Fire",
@@ -1184,6 +1258,7 @@
         "lv50Spd": 104
     },
     {
+        "id": 75,
         "number": 75,
         "name": "Greymon (Blue)",
         "attribute": "Fire",
@@ -1200,6 +1275,7 @@
         "lv50Spd": 99
     },
     {
+        "id": 76,
         "number": 76,
         "name": "Clockmon",
         "attribute": "Electric",
@@ -1216,6 +1292,7 @@
         "lv50Spd": 92
     },
     {
+        "id": 77,
         "number": 77,
         "name": "Kuwagamon",
         "attribute": "Plant",
@@ -1232,6 +1309,7 @@
         "lv50Spd": 99
     },
     {
+        "id": 78,
         "number": 78,
         "name": "Gekomon",
         "attribute": "Water",
@@ -1248,6 +1326,7 @@
         "lv50Spd": 90
     },
     {
+        "id": 79,
         "number": 79,
         "name": "Geremon",
         "attribute": "Electric",
@@ -1264,6 +1343,7 @@
         "lv50Spd": 78
     },
     {
+        "id": 80,
         "number": 80,
         "name": "GoldNumemon",
         "attribute": "Light",
@@ -1280,6 +1360,7 @@
         "lv50Spd": 88
     },
     {
+        "id": 81,
         "number": 81,
         "name": "Cyclonemon",
         "attribute": "Earth",
@@ -1296,6 +1377,7 @@
         "lv50Spd": 81
     },
     {
+        "id": 82,
         "number": 82,
         "name": "Sunflowmon",
         "attribute": "Plant",
@@ -1312,6 +1394,7 @@
         "lv50Spd": 86
     },
     {
+        "id": 83,
         "number": 83,
         "name": "Seadramon",
         "attribute": "Water",
@@ -1328,6 +1411,7 @@
         "lv50Spd": 88
     },
     {
+        "id": 84,
         "number": 84,
         "name": "GeoGreymon",
         "attribute": "Fire",
@@ -1344,6 +1428,7 @@
         "lv50Spd": 118
     },
     {
+        "id": 85,
         "number": 85,
         "name": "Sukamon",
         "attribute": "Earth",
@@ -1360,6 +1445,7 @@
         "lv50Spd": 79
     },
     {
+        "id": 86,
         "number": 86,
         "name": "Starmon",
         "attribute": "Neutral",
@@ -1376,6 +1462,7 @@
         "lv50Spd": 101
     },
     {
+        "id": 87,
         "number": 87,
         "name": "Stingmon",
         "attribute": "Plant",
@@ -1392,6 +1479,7 @@
         "lv50Spd": 133
     },
     {
+        "id": 88,
         "number": 88,
         "name": "Socerimon",
         "attribute": "Water",
@@ -1408,6 +1496,7 @@
         "lv50Spd": 90
     },
     {
+        "id": 89,
         "number": 89,
         "name": "Tankmon",
         "attribute": "Electric",
@@ -1424,6 +1513,7 @@
         "lv50Spd": 81
     },
     {
+        "id": 90,
         "number": 90,
         "name": "Tyrannomon",
         "attribute": "Fire",
@@ -1440,6 +1530,7 @@
         "lv50Spd": 97
     },
     {
+        "id": 91,
         "number": 91,
         "name": "Gatomon",
         "attribute": "Light",
@@ -1456,6 +1547,7 @@
         "lv50Spd": 123
     },
     {
+        "id": 92,
         "number": 92,
         "name": "Devimon",
         "attribute": "Dark",
@@ -1472,6 +1564,7 @@
         "lv50Spd": 97
     },
     {
+        "id": 93,
         "number": 93,
         "name": "Togemon",
         "attribute": "Plant",
@@ -1488,6 +1581,7 @@
         "lv50Spd": 90
     },
     {
+        "id": 94,
         "number": 94,
         "name": "Dorugamon",
         "attribute": "Earth",
@@ -1504,6 +1598,7 @@
         "lv50Spd": 123
     },
     {
+        "id": 95,
         "number": 95,
         "name": "Nanimon",
         "attribute": "Earth",
@@ -1520,6 +1615,7 @@
         "lv50Spd": 81
     },
     {
+        "id": 96,
         "number": 96,
         "name": "Numemon",
         "attribute": "Earth",
@@ -1536,6 +1632,7 @@
         "lv50Spd": 83
     },
     {
+        "id": 97,
         "number": 97,
         "name": "Birdramon",
         "attribute": "Fire",
@@ -1552,6 +1649,7 @@
         "lv50Spd": 128
     },
     {
+        "id": 98,
         "number": 98,
         "name": "Bakemon",
         "attribute": "Dark",
@@ -1568,6 +1666,7 @@
         "lv50Spd": 128
     },
     {
+        "id": 99,
         "number": 99,
         "name": "Veedramon",
         "attribute": "Wind",
@@ -1584,6 +1683,7 @@
         "lv50Spd": 114
     },
     {
+        "id": 100,
         "number": 100,
         "name": "PlatinumSukamon",
         "attribute": "Neutral",
@@ -1600,6 +1700,7 @@
         "lv50Spd": 79
     },
     {
+        "id": 101,
         "number": 101,
         "name": "BlackGatomon",
         "attribute": "Dark",
@@ -1616,6 +1717,7 @@
         "lv50Spd": 118
     },
     {
+        "id": 102,
         "number": 102,
         "name": "Vegiemon",
         "attribute": "Plant",
@@ -1632,6 +1734,7 @@
         "lv50Spd": 88
     },
     {
+        "id": 103,
         "number": 103,
         "name": "Peckmon",
         "attribute": "Wind",
@@ -1648,6 +1751,7 @@
         "lv50Spd": 148
     },
     {
+        "id": 104,
         "number": 104,
         "name": "Meramon",
         "attribute": "Fire",
@@ -1664,6 +1768,7 @@
         "lv50Spd": 99
     },
     {
+        "id": 105,
         "number": 105,
         "name": "Frigimon",
         "attribute": "Water",
@@ -1680,6 +1785,7 @@
         "lv50Spd": 90
     },
     {
+        "id": 106,
         "number": 106,
         "name": "Leomon",
         "attribute": "Earth",
@@ -1696,6 +1802,7 @@
         "lv50Spd": 97
     },
     {
+        "id": 107,
         "number": 107,
         "name": "Reppamon",
         "attribute": "Light",
@@ -1712,6 +1819,7 @@
         "lv50Spd": 143
     },
     {
+        "id": 108,
         "number": 108,
         "name": "Waspmon",
         "attribute": "Electric",
@@ -1728,6 +1836,7 @@
         "lv50Spd": 113
     },
     {
+        "id": 109,
         "number": 109,
         "name": "MegaKabuterimon",
         "attribute": "Plant",
@@ -1744,6 +1853,7 @@
         "lv50Spd": 92
     },
     {
+        "id": 110,
         "number": 110,
         "name": "Antylamon",
         "attribute": "Neutral",
@@ -1760,6 +1870,7 @@
         "lv50Spd": 168
     },
     {
+        "id": 111,
         "number": 111,
         "name": "Andromon",
         "attribute": "Electric",
@@ -1776,6 +1887,7 @@
         "lv50Spd": 95
     },
     {
+        "id": 112,
         "number": 112,
         "name": "Meteormon",
         "attribute": "Earth",
@@ -1792,6 +1904,7 @@
         "lv50Spd": 89
     },
     {
+        "id": 113,
         "number": 113,
         "name": "Infermon",
         "attribute": "Dark",
@@ -1808,6 +1921,7 @@
         "lv50Spd": 153
     },
     {
+        "id": 114,
         "number": 114,
         "name": "Myotismon",
         "attribute": "Dark",
@@ -1824,6 +1938,7 @@
         "lv50Spd": 110
     },
     {
+        "id": 115,
         "number": 115,
         "name": "AeroVeedramon",
         "attribute": "Wind",
@@ -1840,6 +1955,7 @@
         "lv50Spd": 153
     },
     {
+        "id": 116,
         "number": 116,
         "name": "Etemon",
         "attribute": "Dark",
@@ -1856,6 +1972,7 @@
         "lv50Spd": 133
     },
     {
+        "id": 117,
         "number": 117,
         "name": "Angewomon",
         "attribute": "Light",
@@ -1872,6 +1989,7 @@
         "lv50Spd": 143
     },
     {
+        "id": 118,
         "number": 118,
         "name": "Okuwamon",
         "attribute": "Plant",
@@ -1888,6 +2006,7 @@
         "lv50Spd": 119
     },
     {
+        "id": 119,
         "number": 119,
         "name": "Garudamon",
         "attribute": "Fire",
@@ -1904,6 +2023,7 @@
         "lv50Spd": 143
     },
     {
+        "id": 120,
         "number": 120,
         "name": "Gigadramon",
         "attribute": "Wind",
@@ -1920,6 +2040,7 @@
         "lv50Spd": 100
     },
     {
+        "id": 121,
         "number": 121,
         "name": "CannonBeemon",
         "attribute": "Electric",
@@ -1936,6 +2057,7 @@
         "lv50Spd": 143
     },
     {
+        "id": 122,
         "number": 122,
         "name": "GrapLeomon",
         "attribute": "Electric",
@@ -1952,6 +2074,7 @@
         "lv50Spd": 143
     },
     {
+        "id": 123,
         "number": 123,
         "name": "Cyberdramon",
         "attribute": "Dark",
@@ -1968,6 +2091,7 @@
         "lv50Spd": 122
     },
     {
+        "id": 124,
         "number": 124,
         "name": "Shakkoumon",
         "attribute": "Light",
@@ -1984,6 +2108,7 @@
         "lv50Spd": 92
     },
     {
+        "id": 125,
         "number": 125,
         "name": "Cherrymon",
         "attribute": "Plant",
@@ -2000,6 +2125,7 @@
         "lv50Spd": 100
     },
     {
+        "id": 126,
         "number": 126,
         "name": "Silphymon",
         "attribute": "Wind",
@@ -2016,6 +2142,7 @@
         "lv50Spd": 158
     },
     {
+        "id": 127,
         "number": 127,
         "name": "SuperStarmon",
         "attribute": "Light",
@@ -2032,6 +2159,7 @@
         "lv50Spd": 120
     },
     {
+        "id": 128,
         "number": 128,
         "name": "SkullGreymon",
         "attribute": "Dark",
@@ -2048,6 +2176,7 @@
         "lv50Spd": 119
     },
     {
+        "id": 129,
         "number": 129,
         "name": "Zudomon",
         "attribute": "Water",
@@ -2064,6 +2193,7 @@
         "lv50Spd": 102
     },
     {
+        "id": 130,
         "number": 130,
         "name": "Taomon",
         "attribute": "Dark",
@@ -2080,6 +2210,7 @@
         "lv50Spd": 138
     },
     {
+        "id": 131,
         "number": 131,
         "name": "Chirinmon",
         "attribute": "Light",
@@ -2096,6 +2227,7 @@
         "lv50Spd": 168
     },
     {
+        "id": 132,
         "number": 132,
         "name": "Digitamamon",
         "attribute": "Neutral",
@@ -2112,6 +2244,7 @@
         "lv50Spd": 102
     },
     {
+        "id": 133,
         "number": 133,
         "name": "SkullMeramon",
         "attribute": "Fire",
@@ -2128,6 +2261,7 @@
         "lv50Spd": 113
     },
     {
+        "id": 134,
         "number": 134,
         "name": "ShogunGekomon",
         "attribute": "Water",
@@ -2144,6 +2278,7 @@
         "lv50Spd": 97
     },
     {
+        "id": 135,
         "number": 135,
         "name": "DoruGreymon",
         "attribute": "Fire",
@@ -2160,6 +2295,7 @@
         "lv50Spd": 116
     },
     {
+        "id": 136,
         "number": 136,
         "name": "Knightmon",
         "attribute": "Neutral",
@@ -2176,6 +2312,7 @@
         "lv50Spd": 92
     },
     {
+        "id": 137,
         "number": 137,
         "name": "Datamon",
         "attribute": "Electric",
@@ -2192,6 +2329,7 @@
         "lv50Spd": 102
     },
     {
+        "id": 138,
         "number": 138,
         "name": "Paildramon",
         "attribute": "Neutral",
@@ -2208,6 +2346,7 @@
         "lv50Spd": 128
     },
     {
+        "id": 139,
         "number": 139,
         "name": "Panjyamon",
         "attribute": "Water",
@@ -2224,6 +2363,7 @@
         "lv50Spd": 126
     },
     {
+        "id": 140,
         "number": 140,
         "name": "Pumpkinmon",
         "attribute": "Earth",
@@ -2240,6 +2380,7 @@
         "lv50Spd": 111
     },
     {
+        "id": 141,
         "number": 141,
         "name": "Piximon",
         "attribute": "Light",
@@ -2256,6 +2397,7 @@
         "lv50Spd": 153
     },
     {
+        "id": 142,
         "number": 142,
         "name": "BlackKingNumemon",
         "attribute": "Dark",
@@ -2272,6 +2414,7 @@
         "lv50Spd": 89
     },
     {
+        "id": 143,
         "number": 143,
         "name": "BlueMeramon",
         "attribute": "Fire",
@@ -2288,6 +2431,7 @@
         "lv50Spd": 119
     },
     {
+        "id": 144,
         "number": 144,
         "name": "Vademon",
         "attribute": "Dark",
@@ -2304,6 +2448,7 @@
         "lv50Spd": 97
     },
     {
+        "id": 145,
         "number": 145,
         "name": "Whamon",
         "attribute": "Water",
@@ -2320,6 +2465,7 @@
         "lv50Spd": 100
     },
     {
+        "id": 146,
         "number": 146,
         "name": "MagnaAngemon",
         "attribute": "Light",
@@ -2336,6 +2482,7 @@
         "lv50Spd": 105
     },
     {
+        "id": 147,
         "number": 147,
         "name": "MachGaogamon",
         "attribute": "Wind",
@@ -2352,6 +2499,7 @@
         "lv50Spd": 158
     },
     {
+        "id": 148,
         "number": 148,
         "name": "Mamemon",
         "attribute": "Earth",
@@ -2368,6 +2516,7 @@
         "lv50Spd": 97
     },
     {
+        "id": 149,
         "number": 149,
         "name": "MegaSeadramon",
         "attribute": "Water",
@@ -2384,6 +2533,7 @@
         "lv50Spd": 102
     },
     {
+        "id": 150,
         "number": 150,
         "name": "Megadramon",
         "attribute": "Wind",
@@ -2400,6 +2550,7 @@
         "lv50Spd": 119
     },
     {
+        "id": 151,
         "number": 151,
         "name": "WarGrowlmon",
         "attribute": "Fire",
@@ -2416,6 +2567,7 @@
         "lv50Spd": 116
     },
     {
+        "id": 152,
         "number": 152,
         "name": "MetalGreymon",
         "attribute": "Fire",
@@ -2432,6 +2584,7 @@
         "lv50Spd": 113
     },
     {
+        "id": 153,
         "number": 153,
         "name": "MetalGreymon (Blue)",
         "attribute": "Fire",
@@ -2448,6 +2601,7 @@
         "lv50Spd": 110
     },
     {
+        "id": 154,
         "number": 154,
         "name": "MetalTyrannomon",
         "attribute": "Electric",
@@ -2464,6 +2618,7 @@
         "lv50Spd": 92
     },
     {
+        "id": 155,
         "number": 155,
         "name": "MetalMamemon",
         "attribute": "Electric",
@@ -2480,6 +2635,7 @@
         "lv50Spd": 103
     },
     {
+        "id": 156,
         "number": 156,
         "name": "Monzaemon",
         "attribute": "Neutral",
@@ -2496,6 +2652,7 @@
         "lv50Spd": 100
     },
     {
+        "id": 157,
         "number": 157,
         "name": "Crowmon",
         "attribute": "Wind",
@@ -2512,6 +2669,7 @@
         "lv50Spd": 173
     },
     {
+        "id": 158,
         "number": 158,
         "name": "RizeGreymon",
         "attribute": "Fire",
@@ -2528,6 +2686,7 @@
         "lv50Spd": 143
     },
     {
+        "id": 159,
         "number": 159,
         "name": "Lilamon",
         "attribute": "Plant",
@@ -2544,6 +2703,7 @@
         "lv50Spd": 114
     },
     {
+        "id": 160,
         "number": 160,
         "name": "Rapidmon",
         "attribute": "Electric",
@@ -2560,6 +2720,7 @@
         "lv50Spd": 143
     },
     {
+        "id": 161,
         "number": 161,
         "name": "Lillymon",
         "attribute": "Plant",
@@ -2576,6 +2737,7 @@
         "lv50Spd": 158
     },
     {
+        "id": 162,
         "number": 162,
         "name": "Lucemon FM",
         "attribute": "Neutral",
@@ -2592,6 +2754,7 @@
         "lv50Spd": 139
     },
     {
+        "id": 163,
         "number": 163,
         "name": "LadyDevimon",
         "attribute": "Dark",
@@ -2608,6 +2771,7 @@
         "lv50Spd": 143
     },
     {
+        "id": 164,
         "number": 164,
         "name": "WereGarurumon",
         "attribute": "Earth",
@@ -2624,6 +2788,7 @@
         "lv50Spd": 153
     },
     {
+        "id": 165,
         "number": 165,
         "name": "WereGarurumon (Blk)",
         "attribute": "Earth",
@@ -2640,6 +2805,7 @@
         "lv50Spd": 148
     },
     {
+        "id": 166,
         "number": 166,
         "name": "Wisemon",
         "attribute": "Dark",
@@ -2656,6 +2822,7 @@
         "lv50Spd": 133
     },
     {
+        "id": 167,
         "number": 167,
         "name": "Alphamon",
         "attribute": "Neutral",
@@ -2672,6 +2839,7 @@
         "lv50Spd": 130
     },
     {
+        "id": 168,
         "number": 168,
         "name": "UlforceVeedramon",
         "attribute": "Wind",
@@ -2688,6 +2856,7 @@
         "lv50Spd": 198
     },
     {
+        "id": 169,
         "number": 169,
         "name": "Ebemon",
         "attribute": "Electric",
@@ -2704,6 +2873,7 @@
         "lv50Spd": 129
     },
     {
+        "id": 170,
         "number": 170,
         "name": "Imperialdramon DM",
         "attribute": "Fire",
@@ -2720,6 +2890,7 @@
         "lv50Spd": 148
     },
     {
+        "id": 171,
         "number": 171,
         "name": "Imperialdramon FM",
         "attribute": "Neutral",
@@ -2736,6 +2907,7 @@
         "lv50Spd": 153
     },
     {
+        "id": 172,
         "number": 172,
         "name": "Vikemon",
         "attribute": "Water",
@@ -2752,6 +2924,7 @@
         "lv50Spd": 133
     },
     {
+        "id": 173,
         "number": 173,
         "name": "VenomMyotismon",
         "attribute": "Dark",
@@ -2768,6 +2941,7 @@
         "lv50Spd": 138
     },
     {
+        "id": 174,
         "number": 174,
         "name": "WarGreymon",
         "attribute": "Fire",
@@ -2784,6 +2958,7 @@
         "lv50Spd": 140
     },
     {
+        "id": 175,
         "number": 175,
         "name": "Examon",
         "attribute": "Wind",
@@ -2800,6 +2975,7 @@
         "lv50Spd": 153
     },
     {
+        "id": 176,
         "number": 176,
         "name": "Ophanimon",
         "attribute": "Light",
@@ -2816,6 +2992,7 @@
         "lv50Spd": 153
     },
     {
+        "id": 177,
         "number": 177,
         "name": "Gaiomon",
         "attribute": "Fire",
@@ -2832,6 +3009,7 @@
         "lv50Spd": 158
     },
     {
+        "id": 178,
         "number": 178,
         "name": "ChaosGallantmon",
         "attribute": "Dark",
@@ -2848,6 +3026,7 @@
         "lv50Spd": 144
     },
     {
+        "id": 179,
         "number": 179,
         "name": "Gankoomon",
         "attribute": "Fire",
@@ -2864,6 +3043,7 @@
         "lv50Spd": 138
     },
     {
+        "id": 180,
         "number": 180,
         "name": "Kuzuhamon",
         "attribute": "Dark",
@@ -2880,6 +3060,7 @@
         "lv50Spd": 139
     },
     {
+        "id": 181,
         "number": 181,
         "name": "GranKuwagamon",
         "attribute": "Plant",
@@ -2896,6 +3077,7 @@
         "lv50Spd": 140
     },
     {
+        "id": 182,
         "number": 182,
         "name": "GroundLocomon",
         "attribute": "Electric",
@@ -2912,6 +3094,7 @@
         "lv50Spd": 128
     },
     {
+        "id": 183,
         "number": 183,
         "name": "Craniamon",
         "attribute": "Earth",
@@ -2928,6 +3111,7 @@
         "lv50Spd": 124
     },
     {
+        "id": 184,
         "number": 184,
         "name": "Kerpymon (Good)",
         "attribute": "Light",
@@ -2944,6 +3128,7 @@
         "lv50Spd": 158
     },
     {
+        "id": 185,
         "number": 185,
         "name": "SaberLeomon",
         "attribute": "Wind",
@@ -2960,6 +3145,7 @@
         "lv50Spd": 163
     },
     {
+        "id": 186,
         "number": 186,
         "name": "Sakuyamon",
         "attribute": "Light",
@@ -2976,6 +3162,7 @@
         "lv50Spd": 173
     },
     {
+        "id": 187,
         "number": 187,
         "name": "Jesmon",
         "attribute": "Neutral",
@@ -2992,6 +3179,7 @@
         "lv50Spd": 168
     },
     {
+        "id": 188,
         "number": 188,
         "name": "ShineGreymon",
         "attribute": "Light",
@@ -3008,6 +3196,7 @@
         "lv50Spd": 158
     },
     {
+        "id": 189,
         "number": 189,
         "name": "Justimon",
         "attribute": "Light",
@@ -3024,6 +3213,7 @@
         "lv50Spd": 144
     },
     {
+        "id": 190,
         "number": 190,
         "name": "Kentaurosmon",
         "attribute": "Light",
@@ -3040,6 +3230,7 @@
         "lv50Spd": 183
     },
     {
+        "id": 191,
         "number": 191,
         "name": "Seraphimon",
         "attribute": "Light",
@@ -3056,6 +3247,7 @@
         "lv50Spd": 135
     },
     {
+        "id": 192,
         "number": 192,
         "name": "MegaGargomon",
         "attribute": "Electric",
@@ -3072,6 +3264,7 @@
         "lv50Spd": 144
     },
     {
+        "id": 193,
         "number": 193,
         "name": "TigerVespamon",
         "attribute": "Electric",
@@ -3088,6 +3281,7 @@
         "lv50Spd": 173
     },
     {
+        "id": 194,
         "number": 194,
         "name": "Titamon",
         "attribute": "Earth",
@@ -3104,6 +3298,7 @@
         "lv50Spd": 129
     },
     {
+        "id": 195,
         "number": 195,
         "name": "Dianamon",
         "attribute": "Water",
@@ -3120,6 +3315,7 @@
         "lv50Spd": 183
     },
     {
+        "id": 196,
         "number": 196,
         "name": "Diaboromon",
         "attribute": "Dark",
@@ -3136,6 +3332,7 @@
         "lv50Spd": 173
     },
     {
+        "id": 197,
         "number": 197,
         "name": "Creepymon",
         "attribute": "Dark",
@@ -3152,6 +3349,7 @@
         "lv50Spd": 140
     },
     {
+        "id": 198,
         "number": 198,
         "name": "Gallantmon",
         "attribute": "Light",
@@ -3168,6 +3366,7 @@
         "lv50Spd": 148
     },
     {
+        "id": 199,
         "number": 199,
         "name": "Dynasmon",
         "attribute": "Wind",
@@ -3184,6 +3383,7 @@
         "lv50Spd": 178
     },
     {
+        "id": 200,
         "number": 200,
         "name": "Leopardmon",
         "attribute": "Light",
@@ -3200,6 +3400,7 @@
         "lv50Spd": 188
     },
     {
+        "id": 201,
         "number": 201,
         "name": "Leopardmon LM",
         "attribute": "Earth",
@@ -3216,6 +3417,7 @@
         "lv50Spd": 218
     },
     {
+        "id": 202,
         "number": 202,
         "name": "HiAndromon",
         "attribute": "Electric",
@@ -3232,6 +3434,7 @@
         "lv50Spd": 124
     },
     {
+        "id": 203,
         "number": 203,
         "name": "Barbamon",
         "attribute": "Dark",
@@ -3248,6 +3451,7 @@
         "lv50Spd": 133
     },
     {
+        "id": 204,
         "number": 204,
         "name": "BanchoLeomon",
         "attribute": "Earth",
@@ -3264,6 +3468,7 @@
         "lv50Spd": 138
     },
     {
+        "id": 205,
         "number": 205,
         "name": "Piedmon",
         "attribute": "Dark",
@@ -3280,6 +3485,7 @@
         "lv50Spd": 163
     },
     {
+        "id": 206,
         "number": 206,
         "name": "Puppetmon",
         "attribute": "Plant",
@@ -3296,6 +3502,7 @@
         "lv50Spd": 124
     },
     {
+        "id": 207,
         "number": 207,
         "name": "PlatinumNumemon",
         "attribute": "Neutral",
@@ -3312,6 +3519,7 @@
         "lv50Spd": 120
     },
     {
+        "id": 208,
         "number": 208,
         "name": "BlackWarGreymon",
         "attribute": "Fire",
@@ -3328,6 +3536,7 @@
         "lv50Spd": 140
     },
     {
+        "id": 209,
         "number": 209,
         "name": "PrinceMamemon",
         "attribute": "Neutral",
@@ -3344,6 +3553,7 @@
         "lv50Spd": 130
     },
     {
+        "id": 210,
         "number": 210,
         "name": "Plesiomon",
         "attribute": "Water",
@@ -3360,6 +3570,7 @@
         "lv50Spd": 129
     },
     {
+        "id": 211,
         "number": 211,
         "name": "HerculesKabuterimon",
         "attribute": "Plant",
@@ -3376,6 +3587,7 @@
         "lv50Spd": 124
     },
     {
+        "id": 212,
         "number": 212,
         "name": "Beelzemon",
         "attribute": "Dark",
@@ -3392,6 +3604,7 @@
         "lv50Spd": 168
     },
     {
+        "id": 213,
         "number": 213,
         "name": "Belphemon SM",
         "attribute": "Dark",
@@ -3408,6 +3621,7 @@
         "lv50Spd": 139
     },
     {
+        "id": 214,
         "number": 214,
         "name": "Hououmon",
         "attribute": "Fire",
@@ -3424,6 +3638,7 @@
         "lv50Spd": 158
     },
     {
+        "id": 215,
         "number": 215,
         "name": "Magnadramon",
         "attribute": "Light",
@@ -3440,6 +3655,7 @@
         "lv50Spd": 129
     },
     {
+        "id": 216,
         "number": 216,
         "name": "Boltmon",
         "attribute": "Electric",
@@ -3456,6 +3672,7 @@
         "lv50Spd": 140
     },
     {
+        "id": 217,
         "number": 217,
         "name": "Mastemon",
         "attribute": "Neutral",
@@ -3472,6 +3689,7 @@
         "lv50Spd": 149
     },
     {
+        "id": 218,
         "number": 218,
         "name": "MarineAngemon",
         "attribute": "Water",
@@ -3488,6 +3706,7 @@
         "lv50Spd": 153
     },
     {
+        "id": 219,
         "number": 219,
         "name": "Minervamon",
         "attribute": "Neutral",
@@ -3504,6 +3723,7 @@
         "lv50Spd": 168
     },
     {
+        "id": 220,
         "number": 220,
         "name": "MirageGaogamon",
         "attribute": "Wind",
@@ -3520,6 +3740,7 @@
         "lv50Spd": 178
     },
     {
+        "id": 221,
         "number": 221,
         "name": "Machinedramon",
         "attribute": "Electric",
@@ -3536,6 +3757,7 @@
         "lv50Spd": 124
     },
     {
+        "id": 222,
         "number": 222,
         "name": "MetalEtemon",
         "attribute": "Earth",
@@ -3552,6 +3774,7 @@
         "lv50Spd": 124
     },
     {
+        "id": 223,
         "number": 223,
         "name": "MetalGarurumon",
         "attribute": "Water",
@@ -3568,6 +3791,7 @@
         "lv50Spd": 178
     },
     {
+        "id": 224,
         "number": 224,
         "name": "MetalGarurumon (Blk)",
         "attribute": "Electric",
@@ -3584,6 +3808,7 @@
         "lv50Spd": 130
     },
     {
+        "id": 225,
         "number": 225,
         "name": "MetalSeadramon",
         "attribute": "Water",
@@ -3600,6 +3825,7 @@
         "lv50Spd": 129
     },
     {
+        "id": 226,
         "number": 226,
         "name": "RustTyranomon",
         "attribute": "Electric",
@@ -3616,6 +3842,7 @@
         "lv50Spd": 140
     },
     {
+        "id": 227,
         "number": 227,
         "name": "Leviamon",
         "attribute": "Water",
@@ -3632,6 +3859,7 @@
         "lv50Spd": 133
     },
     {
+        "id": 228,
         "number": 228,
         "name": "Lilithmon",
         "attribute": "Dark",
@@ -3648,6 +3876,7 @@
         "lv50Spd": 173
     },
     {
+        "id": 229,
         "number": 229,
         "name": "Ravemon",
         "attribute": "Wind",
@@ -3664,6 +3893,7 @@
         "lv50Spd": 203
     },
     {
+        "id": 230,
         "number": 230,
         "name": "Crusadermon",
         "attribute": "Dark",
@@ -3680,6 +3910,7 @@
         "lv50Spd": 193
     },
     {
+        "id": 231,
         "number": 231,
         "name": "Rosemon",
         "attribute": "Plant",
@@ -3696,6 +3927,7 @@
         "lv50Spd": 144
     },
     {
+        "id": 232,
         "number": 232,
         "name": "Lotosmon",
         "attribute": "Plant",
@@ -3712,6 +3944,7 @@
         "lv50Spd": 168
     },
     {
+        "id": 233,
         "number": 233,
         "name": "Imperialdramon PM",
         "attribute": "Light",
@@ -3728,6 +3961,7 @@
         "lv50Spd": 153
     },
     {
+        "id": 234,
         "number": 234,
         "name": "Omnimon",
         "attribute": "Light",
@@ -3744,6 +3978,7 @@
         "lv50Spd": 144
     },
     {
+        "id": 235,
         "number": 235,
         "name": "Omnimon Zwart",
         "attribute": "Dark",
@@ -3760,6 +3995,7 @@
         "lv50Spd": 134
     },
     {
+        "id": 236,
         "number": 236,
         "name": "Belphemon RM",
         "attribute": "Dark",
@@ -3776,6 +4012,7 @@
         "lv50Spd": 140
     },
     {
+        "id": 237,
         "number": 237,
         "name": "Lucemon SM",
         "attribute": "Dark",
@@ -3792,6 +4029,7 @@
         "lv50Spd": 158
     },
     {
+        "id": 238,
         "number": 238,
         "name": "Flamedramon",
         "attribute": "Fire",
@@ -3808,6 +4046,7 @@
         "lv50Spd": 138
     },
     {
+        "id": 239,
         "number": 239,
         "name": "Magnamon",
         "attribute": "Earth",
@@ -3824,6 +4063,7 @@
         "lv50Spd": 124
     },
     {
+        "id": 240,
         "number": 240,
         "name": "Rapidmon (Armor)",
         "attribute": "Light",
@@ -3840,6 +4080,7 @@
         "lv50Spd": 124
     },
     {
+        "id": 241,
         "number": 241,
         "name": "Kerpymon (Blk)",
         "attribute": "Dark",
@@ -3856,6 +4097,7 @@
         "lv50Spd": 153
     },
     {
+        "id": 242,
         "number": 242,
         "name": "Beelzemon BM",
         "attribute": "Dark",
@@ -3872,6 +4114,7 @@
         "lv50Spd": 178
     },
     {
+        "id": 243,
         "number": 243,
         "name": "Darkdramon",
         "attribute": "Electric",
@@ -3888,6 +4131,7 @@
         "lv50Spd": 139
     },
     {
+        "id": 244,
         "number": 244,
         "name": "Chaosmon",
         "attribute": "Neutral",
@@ -3904,6 +4148,7 @@
         "lv50Spd": 188
     },
     {
+        "id": 245,
         "number": 245,
         "name": "Valkyrimon",
         "attribute": "Wind",
@@ -3920,6 +4165,7 @@
         "lv50Spd": 168
     },
     {
+        "id": 246,
         "number": 246,
         "name": "ShineGreymon BM",
         "attribute": "Fire",
@@ -3936,6 +4182,7 @@
         "lv50Spd": 168
     },
     {
+        "id": 247,
         "number": 247,
         "name": "MirageGaogamon BM",
         "attribute": "Light",
@@ -3952,6 +4199,7 @@
         "lv50Spd": 174
     },
     {
+        "id": 248,
         "number": 248,
         "name": "Ravemon BM",
         "attribute": "Wind",
@@ -3968,6 +4216,7 @@
         "lv50Spd": 213
     },
     {
+        "id": 249,
         "number": 249,
         "name": "Rosemon BM",
         "attribute": "Plant",

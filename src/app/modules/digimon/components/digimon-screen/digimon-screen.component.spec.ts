@@ -11,6 +11,7 @@ describe('DigimonScreenComponent', () => {
   let digimonService: DigimonService;
   const digimonData: Digimon[] = [
     {
+      id: 1,
       number: 1,
       name: "Kuramon",
       attribute: "Neutral",
@@ -27,6 +28,7 @@ describe('DigimonScreenComponent', () => {
       lv50Spd: 95
   },
   {
+      id: 1,
       number: 2,
       name: "Pabumon",
       attribute: "Neutral",

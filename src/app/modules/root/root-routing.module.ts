@@ -7,7 +7,7 @@ import { Error404PageComponent } from './pages/error404-page/error404-page.compo
 const routeNames = RoutesConfig.routeNames;
 
 const rootRoutes: Routes = [
-  { path: routeNames.home, component: HomePageComponent, pathMatch: 'full' },
+  { path: '', component: HomePageComponent, pathMatch: 'full' },
   { path: routeNames.error404, component: Error404PageComponent },
 ];
 

@@ -24,9 +24,9 @@ import { AppComponent } from './app.component';
     DigimonModule,
     RootModule,
     AuthModule,
-    // HttpClientInMemoryWebApiModule.forRoot(
-    //   InMemoryDataService, { dataEncapsulation: false }
-    // )
+    HttpClientInMemoryWebApiModule.forRoot(
+      InMemoryDataService, { dataEncapsulation: false }
+    )
   ],
   exports: [
   ],

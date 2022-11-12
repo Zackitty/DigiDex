@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { DigimonDetailsComponent } from './components/digimon-details/digimon-details.component';
 
 const digimonRoutes: Routes = [
-  { path: 'detail', component: DigimonDetailsComponent }
+  { path: 'detail/:number', component: DigimonDetailsComponent }
 ];
 
 @NgModule({

@@ -23,15 +23,14 @@ export class DigimonService {
 
 
   getDigimon(): Observable<Digimon[]> {
-    // return this.http.get<Digimon[]>(this.digimonUrl);
-    return this.http.get<Digimon[]>('/assets/digimonList.json');
+    return this.http.get<Digimon[]>(this.digimonUrl);
   }
 
-  getADigimon(number: number): Observable<Digimon[]> {
+  getADigimon(number: number): Observable<Digimon> {
       const url = `${this.digimonUrl}/${number}`;
-      return this.http.get<Digimon[]>(url).pipe(
-        tap(_ => this.log(`fetched hero id=${number}`)),
-        catchError(this.handleError<Digimon[]>(`getHero id=${number}`))
+      return this.http.get<Digimon>(url).pipe(
+        tap(_ => this.log(`fetched digimon number=${number}`)),
+        catchError(this.handleError<Digimon>(`getDigimon number=${number}`))
       );
 
   }
@@ -45,7 +44,7 @@ export class DigimonService {
   }
 
   private log(message: string) {
-    this.messageService.add(`HeroService: ${message}`);
+    this.messageService.add(`DigimonService: ${message}`);
   }
   
   private handleError<T>(operation = 'operation', result?: T) {
