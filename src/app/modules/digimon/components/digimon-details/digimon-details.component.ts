@@ -1,9 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Digimon } from '../../shared/models/digimon/digimon';
 import { Output, EventEmitter } from '@angular/core';
-import { DigimonScreenComponent } from '../digimon-screen/digimon-screen.component';
 import { DigimonService } from '../../shared/services/digimon.service';
-import { Observable } from 'rxjs';
+
 
 
 @Component({

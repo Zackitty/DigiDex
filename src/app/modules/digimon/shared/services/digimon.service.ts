@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Observable, of } from 'rxjs';
+import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
+import { combineLatest, Observable, of, throwError } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
 import { SearchService } from '../../../root/shared/services/search.service';
 import { Digimon } from '../models/digimon/digimon';
@@ -12,6 +12,11 @@ import { MessageService } from '../../../../shared/services/message.service';
 export class DigimonService {
 
   private digimonUrl = 'api/digimon'
+  digimon$ = this.http.get<Digimon[]>(this.digimonUrl)
+    .pipe(
+      tap(data => console.log(data)),
+      catchError(this.handleError)
+    );
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   };
@@ -20,39 +25,41 @@ export class DigimonService {
     private http: HttpClient,
     private search: SearchService,
     private messageService: MessageService) { }
+  
 
-
-  getDigimon(): Observable<Digimon[]> {
-    return this.http.get<Digimon[]>(this.digimonUrl);
-  }
-
-  getADigimon(number: number): Observable<Digimon> {
+  getADigimon(number: number): Observable<Digimon[]> {
       const url = `${this.digimonUrl}/${number}`;
-      return this.http.get<Digimon>(url).pipe(
+      return this.http.get<Digimon[]>(url).pipe(
         tap(_ => this.log(`fetched digimon number=${number}`)),
-        catchError(this.handleError<Digimon>(`getDigimon number=${number}`))
+        catchError(err => {
+                   console.error(err);
+                   return throwError(() => new Error('Could Not Retrieve'))
+          })
       );
 
   }
 
-  searchDigimon(): Observable<Digimon[]>{
-    return this.http.get<Digimon[]>(this.digimonUrl)
-    .pipe(
-      tap(_ => this.log('fetched digimon')),
-      catchError(this.handleError<Digimon[]>('searchDigimon', []))
-    );
-  }
+  // searchDigimon(): Observable<Digimon[]>{
+  //   return this.http.get<Digimon[]>(this.digimonUrl)
+  //   .pipe(
+  //     tap(_ => this.log('fetched digimon')),
+  //     catchError(this.handleError<Digimon[]>('searchDigimon', []))
+  //   );
+  // }
 
   private log(message: string) {
     this.messageService.add(`DigimonService: ${message}`);
   }
   
-  private handleError<T>(operation = 'operation', result?: T) {
-    return (error: any): Observable<T> => {
-      console.error(error); 
-      this.log(`${operation} failed: ${error.message}`);
-      return of(result as T);
-    };
+  private handleError(err: HttpErrorResponse): Observable<never> {
+    let errorMessage: string;
+    if (err.error instanceof ErrorEvent){
+      errorMessage = `An Error Occurred: ${err.error.message}`;
+    } else {
+      errorMessage = `Backend returned code ${err.status}: ${err.message}`;
+    }
+    console.error(err);
+    return throwError(() => errorMessage)
   }
 }
 

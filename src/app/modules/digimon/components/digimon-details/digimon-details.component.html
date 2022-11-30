@@ -1,13 +1,7 @@
-<div (click)="callAssignDigimon(digimon.number)" *ngIf="digimon">
-
-    <h2>{{digimon.name | uppercase}} Details</h2>
-    <div><span>id: </span>{{digimon.number}}</div>
-    <div>
-      <label for="hero-name">Digimon name: {{digimon.name}}</label>
-    </div>
-    <img src="{{digimon.img}}" />
-
-  </div>
+<p-card class="digimon-card" (click)="callAssignDigimon(digimon.number)" *ngIf="digimon">
+    <img [src]="digimon.img" />
+    <ng-template pTemplate="header">{{digimon.name | uppercase}}</ng-template>
+  </p-card>
 
   
 

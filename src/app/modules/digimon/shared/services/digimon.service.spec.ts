@@ -3,6 +3,7 @@ import { TestBed } from '@angular/core/testing';
 import { DigimonService } from './digimon.service';
 import { Digimon } from '../models/digimon/digimon';
 import { HttpClientModule } from '@angular/common/http';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 describe('DigimonService', () => {
   let service: DigimonService;
@@ -10,7 +11,7 @@ describe('DigimonService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       imports: [
-        HttpClientModule
+        HttpClientTestingModule 
       ]
     });
     service = TestBed.inject(DigimonService);

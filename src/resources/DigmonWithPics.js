@@ -1046,4 +1046,4 @@ const digiArray2 = [{
         "level": "Mega"
     }]
 
-    console.log(digiArray2.length)
+    

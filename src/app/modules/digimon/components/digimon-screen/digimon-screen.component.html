@@ -1,4 +1,4 @@
-<div *ngFor="let digimon of digimonList">
-    <app-digimon-details (assignDigimon)="assignDigimon($event)" [digimon]="digimon" ></app-digimon-details>
+<div *ngIf="digimonList$ | async as digimonList" class="digimon-screen">
+    <app-digimon-details *ngFor="let digimon of digimonList" (assignDigimon)="assignDigimon($event)" [digimon]="digimon" ></app-digimon-details>
 </div>
 
